@@ -24,7 +24,7 @@ function carrousel_31w_enqueue()
 add_action('wp_enqueue_scripts', 'carrousel_31w_enqueue');
 
 function genere_carrousel(){
-
+    /////////////////////////////////////// HTML
     // Le conteneur du carrousel
     $contenu = '<div class="carrousel">';
     // Le bouton fermeture
